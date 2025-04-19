@@ -41,7 +41,7 @@ sequenceDiagram
     
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 
-    Note right of browser: The note is sent in JSON format: application/json; charset=utf-8
+    Note right of browser: The note is sent in JSON format: application/json and charset=utf-8
 
     Note right of browser: Request Payload: {content: "From CTG", date: "2025-04-19T18:09:43.912Z"} content: "From CTG" date: "2025-04-19T18:09:43.912Z"
 
