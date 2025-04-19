@@ -43,7 +43,7 @@ sequenceDiagram
     Note right of browser: Request Payload: {content: "From CTG", date: "2025-04-19T18:09:43.912Z"}
 
     activate server
-    server-->>browser: JSON format - { "message": "note created"}
+    server-->>browser: 201 Created JSON format - { "message": "note created"}
     deactivate server
 
     Note left of server: array in memory or database is updated
